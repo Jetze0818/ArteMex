@@ -1,0 +1,128 @@
+.container_uqload {
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 1.5rem;
+  justify-items: center;
+  margin: 8rem 1rem 8rem auto;
+}
+
+.container_uqload-public {
+  background-color: #ffffff;
+  width: 20%;
+  min-width: 37.5em;
+  padding: 3.12em 1.87em;
+  top: 1em;
+  box-shadow: 0 1.25em 3.43em rgba(0, 0, 0, 0.08);
+  border-radius: 0.5em;
+}
+
+.input_with_prefix {
+  position: relative;
+}
+
+.input_with_prefix .prefix {
+  position: absolute;
+  left: 0.5em;
+  top: 40%;
+  transform: translateY(-50%);
+}
+
+.input_with_prefix input {
+  padding-left: 1.3rem;
+}
+
+.container_uqload-public input[type="file"] {
+  display: none;
+}
+
+.container_uqload-public label {
+  display: block;
+  position: relative;
+  background-color: #025bee;
+  color: #ffffff;
+  font-size: 1.1em;
+  text-align: center;
+  width: 16em;
+  padding: 1em 0;
+  border-radius: 0.3em;
+  margin: 0 auto 1em auto;
+  cursor: pointer;
+}
+
+#image-display {
+  position: relative;
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 1.25em;
+  flex-wrap: wrap;
+}
+
+#image-display figure {
+  width: 45%;
+}
+
+#image-display img {
+  width: 100%;
+}
+
+#image-display figcaption {
+  font-size: 0.8em;
+  text-align: center;
+  color: #5a5861;
+}
+
+.active-uqload {
+  border: 0.2em dashed #025bee;
+}
+
+#error {
+  text-align: center;
+  color: #ff3030;
+}
+
+/*----------------- RESPONSIVE ------------------*/
+
+@media screen and (max-width: 992px) {
+  .container_uqload {
+    grid-template-columns: 1fr;
+    row-gap: 2rem;
+    justify-content: center;
+  }
+
+  .container_uqload-public {
+    width: 40%; /* Cambia el ancho del contenedor */
+    min-width: 20em; /* Ajusta el ancho mínimo */
+    padding: 2em; /* Ajusta el relleno */
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .container_uqload-public {
+    width: 70%; /* Cambia el ancho del contenedor */
+    min-width: 15em; /* Ajusta el ancho mínimo */
+    padding: 1.5em; /* Ajusta el relleno */
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .container_uqload {
+    grid-template-columns: 1fr;
+    row-gap: 2rem;
+    justify-content: center;
+  }
+
+  .container_uqload-public {
+    width: 90%; /* Cambia el ancho del contenedor */
+    min-width: 12em; /* Ajusta el ancho mínimo */
+    padding: 1em; /* Ajusta el relleno */
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .container_uqload-public {
+    width: 95%; /* Cambia el ancho del contenedor */
+    min-width: 10em; /* Ajusta el ancho mínimo */
+    padding: 0.5em; /* Ajusta el relleno */
+  }
+}

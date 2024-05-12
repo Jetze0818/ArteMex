@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>ArteMex | Descargar App</title>
+  <link rel="shortcut icon" href="./assets/img/Logos/ArteMexL2.png" type="image/png">
+  <meta name="description" content="Vendemos sueños e historias">
+  <link rel="stylesheet" href="assets/css/style1.css">
+
+</head>
+<body>
+    <header>
+        <nav>
+            <a href=""></a>
+            <a href=""></a>
+            <a href=""></a>
+        </nav>
+    </header>
+
+    <!-- carousel -->
+    <div class="carousel">
+        <!-- list item -->
+        <div class="list">
+            <div class="item">
+                <img src="assets/img/1.png">
+                <div class="content">
+                    <div class="author">ArteMex</div>
+                    <div class="title">Descarga Nuestra</div>
+                    <div class="topic">Tienda Online</div>
+                    <div class="des">
+                        <!-- lorem 50 -->
+                        Descarga nuestra aplicación de tienda virtual donde podrás comprar y vender, <br> todo tipo de artículos típicos y artesanales mexicanos.
+                    </div>
+                    <div class="buttons">
+                        <button id="descargar" onclick="descargarArchivo()">Descargar App</button>
+                        <button onclick="irSitioWeb()">Ir SitioWeb</button>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="assets/img/4.png">
+                <div class="content">
+                    <div class="author">ArteMex</div>
+                    <div class="title">Regístrate y</div>
+                    <div class="topic">Empieza a vender</div>
+                    <div class="des">
+                        Nuestra misión es ser la mejor opción para dar a conocer a más personas los artículos <br> creados por los vendedores y proporcionar a los compradores mayor variedad <br> de elección de artículos artesanales.
+
+                    </div>
+                    <div class="buttons">
+                        <button id="descargar" onclick="descargarArchivo()">Descargar App</button>
+                        <button onclick="irSitioWeb()">Ir SitioWeb</button>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="assets/img/3.png">
+                <div class="content">
+                    <div class="author">ArteMex</div>
+                    <div class="title">El mejor lugar</div>
+                    <div class="topic">para Comprar</div>
+                    <div class="des">
+                        Compra y promueve la cultura mexicana a través de las venta y compra de distintos artículos artesanales en todo el país.
+
+                    </div>
+                    <div class="buttons">
+                        <button id="descargar" onclick="descargarArchivo()">Descargar App</button>
+                        <button onclick="irSitioWeb()">Ir SitioWeb</button>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="assets/img/2.png">
+                <div class="content">
+                    <div class="author">ArteMex</div>
+                    <div class="title">Ven y se parte del</div>
+                    <div class="topic">progreso de Mexico</div>
+                    <div class="des">
+                        Nuestra filosofía se basa en dar a conocer el arte y la historia de México, <br> encontrar a los artesanos que mediante sus obras tienen una historia que contar <br> y hacerla llegar a todas los estados de México.
+                        <br> “Vendemos sueños e historias”
+                    </div>
+                    <div class="buttons">
+                        <button id="descargar" onclick="descargarArchivo()">Descargar App</button>
+                        <button onclick="irSitioWeb()">Ir SitioWeb</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- list thumnail -->
+        <div class="thumbnail">
+            <div class="item">
+                <img src="assets/img/1.png">
+                <div class="content">
+                    <div class="title">
+                        ArteMexApp
+                    </div>
+                    <div class="description">
+                        “Vendemos sueños e historias”
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="assets/img/4.png">
+                <div class="content">
+                    <div class="title">
+                        ArteMexApp
+                    </div>
+                    <div class="description">
+                        “Vendemos sueños e historias”
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="assets/img/3.png">
+                <div class="content">
+                    <div class="title">
+                        ArteMexApp
+                    </div>
+                    <div class="description">
+                        “Vendemos sueños e historias”
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="assets/img/2.png">
+                <div class="content">
+                    <div class="title">
+                        ArteMexApp
+                    </div>
+                    <div class="description">
+                        “Vendemos sueños e historias”
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- next prev -->
+
+        <div class="arrows">
+            <button id="prev"><</button>
+            <button id="next">></button>
+        </div>
+        <!-- time running -->
+        <div class="time"></div>
+    </div>
+
+<!-- partial -->
+  <script  src="assets/js/script11.js"></script>
+
+  <script>
+    function descargarArchivo() {
+        // Aquí defines la URL del archivo que deseas descargar
+        var url = "";
+        // Creas un enlace temporal
+        var link = document.createElement('a');
+        link.href = url;
+        // Le das un nombre al archivo que se va a descargar
+        link.download = "ArteMex v1.1.apk";
+        // Simulas el clic en el enlace para iniciar la descarga
+        link.click();
+    }
+    
+    function irSitioWeb() {
+        // Aquí defines la URL de la página HTML a la que deseas redirigir
+        var url = "index.html";
+        // Rediriges a la página
+        window.location.href = url;
+    }
+  </script>
+</body>
+</html>

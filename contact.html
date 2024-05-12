@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--=============== BOXICONS ===============-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+    <!--=============== SWIPER CSS ===============-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" class="js-color-style" href="assets/css/colors/color-1.css">
+
+    <title>ArteMex | Contáctenos</title>
+    <link rel="shortcut icon" href="./assets/img/Logos/ArteMexL2.png" type="image/png">
+    <meta name="description" content="Vendemos sueños e historias">
+</head>
+<body>
+    <!--=============== HEADER ===============-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="index.html" class="nav_logo">
+                <img class="nav_logo-icon" src="./assets/img/Logos/ArteMexL2.png" width="50" height="50"><img class="nav_logo-icon nav_logo-icon2" src="./assets/img/Logos/ArteMexL2.1.png" width="50" height="50">
+            </a>
+
+            <div class="nav_menu" id="nav-menu">
+                <ul class="nav_list">
+                    <li class="nav_item">
+                        <a href="index.html" class="nav_link active-link">Inicio</a>
+                    </li>
+
+                    <li class="nav_item">
+                        <a href="shop.html" class="nav_link">Tienda</a>
+                    </li>
+
+                    <li class="nav_item">
+                        <a href="about.html" class="nav_link">Acerca de Nosotros</a>
+                    </li>
+
+                    <li class="nav_item">
+                        <a href="blog.html" class="nav_link">Blog</a>
+                    </li>
+
+                    <li class="nav_item">
+                        <a href="contact.html" class="nav_link active-link">Contáctenos</a>
+                    </li>
+                </ul>
+
+                <div class="nav_close" id="nav-close">
+                    <i class="bx bx-x"></i>
+                </div>
+            </div>
+
+            <div class="nav_btns">
+                <div class="login_toggle" id="login-button">
+                    <i class="bx bx-user"></i>
+                </div>
+
+                <div class="upload_toggle" id="upload-button-2">
+                    <i class='bx bx-cloud-upload'></i>
+                </div>
+
+                <div class="nav_shop" id="cart-shop">
+                    <i class="bx bx-shopping-bag"></i>
+                </div>
+
+                <div class="nav_toggle" id="nav-toggle">
+                    <i class="bx bx-grid-alt"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!--=============== CART ===============-->
+    <div class="cart" id="cart">
+        <i class="bx bx-x cart_close" id="cart-close"></i>
+
+        <h2 class="cart_title-center">My cart</h2>
+
+        <div class="cart_container">
+            <article class="cart_card ocultar-carta">
+                <div class="cart_box">
+                    <img src="assets/img/cart-1.png" alt="" class="cart_img">
+                </div>
+
+                <div class="cart_details">
+                    <h3 class="cart_title">Blusa</h3>
+                    <span class="cart_price">$12</span>
+
+                    <div class="cart_amount">
+                        <div class="cart_amount-content">
+                            <span class="cart_amount-box">
+                                <i class="bx bx-minus"></i>
+                            </span>
+
+                            <span class="cart_amount-number">1</span>
+
+                            <span class="cart_amount-box">
+                                <i class="bx bx-plus"></i>
+                            </span>
+                        </div>
+
+                        <i class="bx bx-trash-alt cart_amount-trash"></i>
+                    </div>
+                </div>
+            </article>
+
+            <article class="cart_card ocultar-carta">
+                <div class="cart_box">
+                    <img src="assets/img/cart-1.png" alt="" class="cart_img">
+                </div>
+
+                <div class="cart_details">
+                    <h3 class="cart_title">Blusa</h3>
+                    <span class="cart_price">$12</span>
+
+                    <div class="cart_amount">
+                        <div class="cart_amount-content">
+                            <span class="cart_amount-box">
+                                <i class="bx bx-minus"></i>
+                            </span>
+
+                            <span class="cart_amount-number">1</span>
+
+                            <span class="cart_amount-box">
+                                <i class="bx bx-plus"></i>
+                            </span>
+                        </div>
+
+                        <i class="bx bx-trash-alt cart_amount-trash"></i>
+                    </div>
+                </div>
+            </article>
+
+            <article class="cart_card ocultar-carta">
+                <div class="cart_box">
+                    <img src="assets/img/cart-1.png" alt="" class="cart_img">
+                </div>
+
+                <div class="cart_details">
+                    <h3 class="cart_title">Blusa</h3>
+                    <span class="cart_price">$12</span>
+
+                    <div class="cart_amount">
+                        <div class="cart_amount-content">
+                            <span class="cart_amount-box">
+                                <i class="bx bx-minus"></i>
+                            </span>
+
+                            <span class="cart_amount-number">1</span>
+
+                            <span class="cart_amount-box">
+                                <i class="bx bx-plus"></i>
+                            </span>
+                        </div>
+
+                        <i class="bx bx-trash-alt cart_amount-trash"></i>
+                    </div>
+                </div>
+            </article>
+        </div>
+
+        <div class="cart_prices">
+            <span class="cart_prices-item">0 item</span>
+            <span class="cart_prices-total">$0</span>
+        </div>
+
+        <div class="pago_button">
+            <a href="Pago.html" class="button">Comprar</a>
+        </div>
+    </div>
+
+    <!--=============== LOGIN ===============-->
+    <div class="login" id="login">
+        <i class="bx bx-x login_close" id="login-close"></i>
+
+        <h2 class="login_title-center">Iniciar Sesión</h2>
+
+        <form action="" class="login_form grid">
+            <div class="login_content">
+                <label for="" class="login_label">Correo</label>
+                <input type="email" class="login_input">
+            </div>
+
+            <div class="login_content">
+                <label for="" class="login_label">Contraseña</label>
+                <input type="password" class="login_input">
+            </div>
+
+            <div>
+                <a href="#" class="button">Iniciar</a>
+            </div>
+
+            <div>
+                <p class="signup">No tienes cuenta? <a href="registration.html">Regístrate</a></p>
+            </div>
+        </form>
+    </div>
+
+    <!--=============== MAIN ===============-->
+    <main class="main">
+        <!--=============== CONTACT US ===============-->
+        <section class="contact section container">
+            <h2 class="breadcrumb__title">Contáctenos</h2>
+            <h3 class="breadcrumb__subtitle">Inicio > <span>Contáctenos</span></h3>
+
+            <div class="contact_container grid">
+                <div>
+                    <div class="contact_information">
+                        <i class="bx bx-phone contact_icon"></i>
+
+                        <div>
+                            <h3 class="contact_title">Llámanos</h3>
+                            <span class="contact_subtitle">8683524017</span>
+                        </div>
+                    </div>
+
+                    <div class="contact_information">
+                        <i class="bx bx-envelope contact_icon"></i>
+
+                        <div>
+                            <h3 class="contact_title">Correo</h3>
+                            <span class="contact_subtitle">artemex2024@gmail.com</span>
+                        </div>
+                    </div>
+
+                    <div class="contact_information">
+                        <i class="bx bx-map contact_icon"></i>
+
+                        <div>
+                            <h3 class="contact_title">Localización</h3>
+                            <span class="contact_subtitle">H.Matamoros, Tamaulipas</span>
+                        </div>
+                    </div>
+                </div>
+
+                <form action="" class="contact_form grid">
+                    <div class="contact_inputs grid">
+                        <div class="contact_content">
+                            <label for="" class="contact_label">Nombre</label>
+                            <input type="text" class="contact_input">
+                        </div>
+                        <div class="contact_content">
+                            <label for="" class="contact_label">Correo</label>
+                            <input type="email" class="contact_input">
+                        </div>
+                    </div>
+
+                    <div class="contact_content">
+                        <label for="" class="contact_label">Sujeto</label>
+                        <input type="text" class="contact_input">
+                    </div>
+
+                    <div class="contact_content">
+                        <label for="" class="contact_label">Mensaje</label>
+                        <textarea name="" id="" cols="0" rows="7" class="contact_input"></textarea>
+                    </div>
+
+                    <div>
+                        <a href="#" class="button">Enviar</a>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!--=============== FOOTER ===============-->
+    <footer class="footer section">
+        <div class="footer_container container grid">
+            <!--Contenido Footer 1-->
+            <div class="footer_content">
+                <a href="#" class="footer_logo">
+                    <img src="./assets/img/Logos/ArteMexL2.png" alt="" class="footer_logo-icon" width="50" height="50"><img src="./assets/img/Logos/ArteMexL2.1.png" alt="" class="footer_logo-icon" width="50" height="50">
+                </a>
+
+                <p class="footer_description">“Vendemos sueños <br> e historias”</p>
+
+                <div class="footer_social">
+                    <a href="https://www.facebook.com/profile.php?id=61559169504893&locale=es_LA" class="footer_social-link"><i class="bx bxl-facebook"></i></a>
+                    <a href="https://www.instagram.com/artemex2024/" class="footer_social-link"><i class="bx bxl-instagram"></i></a>
+                    <a href="mailto:artemex2024@gmail.com" class="footer_social-link"><i class="bx bxl-gmail"></i></a>
+                </div>
+            </div>
+            <!--Contenido Footer 2-->
+            <div class="footer_content">
+                <h3 class="footer_title">Acerca de</h3>
+
+                <ul class="footer_links">
+                    <li><a href="about.html" class="footer_link">Acerca de Nosotros</a></li>
+                    <li><a href="contact.html" class="footer_link">Atención al cliente</a></li>
+                    <li><a href="contact.html" class="footer_link">Centro de apoyo</a></li>
+                </ul>
+            </div>
+            <!--Contenido Footer 3-->
+            <div class="footer_content">
+                <h3 class="footer_title">Nuestros servicios</h3>
+
+                <ul class="footer_links">
+                    <li><a href="shop.html" class="footer_link">Tienda</a></li>
+                    <li><a href="#discount" class="footer_link">Descuentos</a></li>
+                    <li><a href="#envios" class="footer_link">Modo de envió</a></li>
+                </ul>
+            </div>
+            <!--Contenido Footer 4-->
+            <div class="footer_content">
+                <h3 class="footer_title">Nuestra compañía</h3>
+
+                <ul class="footer_links">
+                    <li><a href="registration.html" class="footer_link">Registro</a></li>
+                    <li><a href="contact.html" class="footer_link">Contáctenos</a></li>
+                    <li><a href="DescargarApp.html" class="footer_link">Nuestra App</a></li>
+                </ul>
+            </div>
+        </div>
+        <span class="footer_copy"><a href="https://jetze0.000webhostapp.com/" style="color: black;">&#169 Jetze-Technology Company. All rights reserved</a></span>
+    </footer>
+
+    <!--=============== SCROLL UP ===============-->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="bx bx-up-arrow-alt scrollup_icon"></i>
+    </a>
+    <!--=============== STYLE SWITCHER ===============-->
+    <div class="style_switcher">
+        <div class="style_switcher-toggle s_icon">
+            <i class="bx bx-cog bx-spin"></i>
+        </div>
+
+        <h4>Colores de fondo</h4>
+
+        <div class="theme_colors js-theme-colors">
+            <button type="button" data-js-theme-color="color-1" class="js-theme-color-item theme_button color-1"><i class="bx bx-check"></i></button>
+            <button type="button" data-js-theme-color="color-2" class="js-theme-color-item theme_button color-2"><i class="bx bx-check"></i></button>
+            <button type="button" data-js-theme-color="color-3" class="js-theme-color-item theme_button color-3"><i class="bx bx-check"></i></button>
+            <button type="button" data-js-theme-color="color-4" class="js-theme-color-item theme_button color-4"><i class="bx bx-check"></i></button>
+            <button type="button" data-js-theme-color="color-5" class="js-theme-color-item theme_button color-5"><i class="bx bx-check"></i></button>
+        </div>
+    </div>
+
+    <!--=============== SWIPER JS ===============-->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+
+    <!--=============== JS ===============-->
+    <script src="assets/js/main.js"></script>
+
+    <!-- CARRITO -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const addToCartButtons = document.querySelectorAll(".button"); // Selecciona todos los botones "Agregar al carrito"
+            const cartItemsContainer = document.querySelector(".cart_container"); // Contenedor del carrito
+            const cartTotal = document.querySelector(".cart_prices-total"); // Total del carrito
+            const cartItemsCount = document.querySelector(".cart_prices-item"); // Contador de artículos en el carrito
+            let totalPrice = 0; // Inicializamos el precio total
+            let itemCount = 0; // Inicializamos el contador de artículos
+    
+            // Función para añadir un producto al carrito
+            function addToCart(title, price, imageSrc) {
+                const cartItem = document.createElement("article");
+                cartItem.classList.add("cart_card");
+                cartItem.innerHTML = `
+                    <div class="cart_box">
+                        <img src="${imageSrc}" alt="" class="cart_img">
+                    </div>
+                    <div class="cart_details">
+                        <h3 class="cart_title">${title}</h3>
+                        <span class="cart_price">$${price}</span>
+                        <div class="cart_amount">
+                            <div class="cart_amount-content">
+                                <span class="cart_amount-box decrement">-</span>
+                                <span class="cart_amount-number">1</span>
+                                <span class="cart_amount-box increment">+</span>
+                            </div>
+                        </div>
+                    </div>
+                    <i class="bx bx-trash-alt cart_amount-trash"></i>
+                `;
+                cartItemsContainer.appendChild(cartItem);
+                totalPrice += price;
+                itemCount++;
+                updateCartTotal();
+                updateCartListeners(); // Actualizamos los listeners del carrito
+            }
+    
+            // Manejador de eventos para los botones "Agregar al carrito"
+            addToCartButtons.forEach(button => {
+                button.addEventListener("click", function() {
+                    const productTitle = this.parentElement.querySelector(".details_title").textContent;
+                    const productPrice = parseFloat(this.parentElement.querySelector(".details_price").textContent.slice(1)); // Slice para eliminar el símbolo $
+                    const productImageSrc = this.parentElement.parentElement.querySelector(".product_img img").src; // Obtenemos la ruta de la imagen del producto
+                    addToCart(productTitle, productPrice, productImageSrc);
+                });
+            });
+    
+            // Función para actualizar el precio total y el contador de artículos en el carrito
+            function updateCartTotal() {
+                cartTotal.textContent = `$${totalPrice.toFixed(2)}`;
+                cartItemsCount.textContent = `${itemCount} item`;
+            }
+    
+            // Función para eliminar un producto del carrito
+            function removeFromCart(price) {
+            totalPrice -= price;
+            itemCount--;
+            if (itemCount === 0) { 
+            totalPrice = 0;
+            }
+            updateCartTotal();
+            }
+    
+            // Función para actualizar el precio total cuando se cambia la cantidad
+            function updateTotalPrice() {
+                totalPrice = 0;
+                const cartItems = document.querySelectorAll(".cart_card");
+                cartItems.forEach(item => {
+                    const price = parseFloat(item.querySelector(".cart_price").textContent.slice(1));
+                    const quantity = parseInt(item.querySelector(".cart_amount-number").textContent);
+                    totalPrice += price * quantity;
+                });
+                updateCartTotal();
+            }
+    
+            // Manejadores de eventos para incrementar y decrementar la cantidad
+            function updateCartListeners() {
+                const decrementButtons = document.querySelectorAll(".cart_amount-box.decrement");
+                const incrementButtons = document.querySelectorAll(".cart_amount-box.increment");
+    
+                decrementButtons.forEach(button => {
+                    button.addEventListener("click", function() {
+                        const quantityElement = this.parentElement.parentElement.querySelector(".cart_amount-number");
+                        let quantity = parseInt(quantityElement.textContent);
+                        if (quantity > 1) {
+                            quantity--;
+                            quantityElement.textContent = quantity;
+                            updateTotalPrice();
+                        }
+                    });
+                });
+    
+                incrementButtons.forEach(button => {
+                    button.addEventListener("click", function() {
+                        const quantityElement = this.parentElement.parentElement.querySelector(".cart_amount-number");
+                        let quantity = parseInt(quantityElement.textContent);
+                        quantity++;
+                        quantityElement.textContent = quantity;
+                        updateTotalPrice();
+                    });
+                });
+            }
+    
+            // Manejador de eventos para los botones "Eliminar producto" en el carrito
+            cartItemsContainer.addEventListener("click", function(event) {
+                if (event.target.classList.contains("cart_amount-trash")) {
+                    const itemPrice = parseFloat(event.target.parentElement.querySelector(".cart_price").textContent.slice(1)); // Slice para eliminar el símbolo $
+                    event.target.parentElement.remove();
+                    removeFromCart(itemPrice);
+                }
+            });
+        });
+    </script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+var icono = document.getElementById("upload-button-2");
+icono.addEventListener("click", function() {
+window.location.href = "upload.html";
+});
+});
+</script>
+</body>
+</html>
