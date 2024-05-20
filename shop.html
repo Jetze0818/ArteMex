@@ -447,65 +447,65 @@
                     </div>
 
                     <div class="shop_content" ng-repeat="item in vm.items">
-                        <div class="shop_tag">Venta</div>
-                        <img src="assets/img/product-5.png" alt="" class="shop_img">
-                        <h3 class="shop_title">Jugo de cocina Mexicano</h3>
+                        <div class="shop_tag">Nuevo</div>
+                        <img src="assets/img/Productos/j1.png" alt="" class="shop_img">
+                        <h3 class="shop_title">Cantaritos Jarritos Para Tequila</h3>
                         <span class="shop_subtitle">Accesorio</span>
 
                         <div class="shop_prices">
-                            <span class="shop_price">$14.99</span>
-                            <span class="shop_discounts">$29.99</span>
+                            <span class="shop_price">$153.00</span>
+                            <span class="shop_discounts">$306.00</span>
                         </div>
 
-                        <a href="details.html" class="button shop_button">
+                        <a href="j.html" class="button shop_button">
                             <i class="bx bx-cart-alt shop_icon"></i>
                         </a>
                     </div>
 
                     <div class="shop_content" ng-repeat="item in vm.items">
-                        <div class="shop_tag">Venta</div>
-                        <img src="assets/img/product-6.png" alt="" class="shop_img">
-                        <h3 class="shop_title">Jugo de cocina Mexicano</h3>
+                        <div class="shop_tag">Nuevo</div>
+                        <img src="assets/img/Productos/p1.png" alt="" class="shop_img">
+                        <h3 class="shop_title">Pirinola Toma Todo De Madera</h3>
                         <span class="shop_subtitle">Accesorio</span>
 
                         <div class="shop_prices">
-                            <span class="shop_price">$14.99</span>
-                            <span class="shop_discounts">$29.99</span>
+                            <span class="shop_price">$75.00</span>
+                            <span class="shop_discounts">$150.00</span>
                         </div>
 
-                        <a href="details.html" class="button shop_button">
+                        <a href="p.html" class="button shop_button">
                             <i class="bx bx-cart-alt shop_icon"></i>
                         </a>
                     </div>
 
                     <div class="shop_content" ng-repeat="item in vm.items">
-                        <div class="shop_tag">Venta</div>
-                        <img src="assets/img/product-5.png" alt="" class="shop_img">
-                        <h3 class="shop_title">Jugo de cocina Mexicano</h3>
+                        <div class="shop_tag">Nuevo</div>
+                        <img src="assets/img/Productos/s1.png" alt="" class="shop_img">
+                        <h3 class="shop_title">Sombrero Mexicano Hecho De Palma</h3>
                         <span class="shop_subtitle">Accesorio</span>
 
                         <div class="shop_prices">
-                            <span class="shop_price">$14.99</span>
-                            <span class="shop_discounts">$29.99</span>
+                            <span class="shop_price">$249.99</span>
+                            <span class="shop_discounts">$499.99</span>
                         </div>
 
-                        <a href="details.html" class="button shop_button">
+                        <a href="s.html" class="button shop_button">
                             <i class="bx bx-cart-alt shop_icon"></i>
                         </a>
                     </div>
 
                     <div class="shop_content" ng-repeat="item in vm.items">
-                        <div class="shop_tag">Venta</div>
-                        <img src="assets/img/product-6.png" alt="" class="shop_img">
-                        <h3 class="shop_title">Jugo de cocina Mexicano</h3>
-                        <span class="shop_subtitle">Accesorio</span>
+                        <div class="shop_tag">Nuevo</div>
+                        <img src="assets/img/Productos/g1.png" alt="" class="shop_img">
+                        <h3 class="shop_title">Huarache Artesanal Para Dama</h3>
+                        <span class="shop_subtitle">Ropa</span>
 
                         <div class="shop_prices">
-                            <span class="shop_price">$14.99</span>
-                            <span class="shop_discounts">$29.99</span>
+                            <span class="shop_price">$500.00</span>
+                            <span class="shop_discounts">$1000.00</span>
                         </div>
 
-                        <a href="details.html" class="button shop_button">
+                        <a href="g.html" class="button shop_button">
                             <i class="bx bx-cart-alt shop_icon"></i>
                         </a>
                     </div>
@@ -690,8 +690,11 @@ document.addEventListener("DOMContentLoaded", function() {
         { text: "Blusa Corrugada Artesanal Mexicana", image: "assets/img/Productos/bl1.png" },
         { text: "Caballito Tequilero Azteca Mexica", image: "assets/img/Productos/o4.png" },
         { text: "Tarro Jemaflex Barro Decorado Espiga", image: "assets/img/Productos/t1.png" },
-        { text: "Vestido mexicano para mujer", image: "assets/img/Productos/v1png" }
-        //{ text: "", image: "assets/img/Productos/" }
+        { text: "Vestido mexicano para mujer", image: "assets/img/Productos/v1.png" },
+        { text: "Huarache Artesanal Para Dama", image: "assets/img/Productos/g1.png" },
+        { text: "Sombrero Mexicano Hecho De Palma", image: "assets/img/Productos/s1.png" },
+        { text: "Pirinola Toma Todo De Madera", image: "assets/img/Productos/p1.png" },
+        { text: "Cantaritos Jarritos Para Tequila", image: "assets/img/Productos/j1.png" }
         //{ text: "", image: "assets/img/Productos/" }
     ];
 
@@ -763,6 +766,18 @@ document.addEventListener("DOMContentLoaded", function() {
                     break;
                 case "Vestido mexicano para mujer":
                     window.location.href = "v.html"; // Cambia "camiseta.html" por la ruta de tu archivo
+                    break;
+                case "Huarache Artesanal Para Dama":
+                    window.location.href = "g.html"; // Cambia "camiseta.html" por la ruta de tu archivo
+                    break;
+                case "Sombrero Mexicano Hecho De Palma":
+                    window.location.href = "s.html"; // Cambia "camiseta.html" por la ruta de tu archivo
+                    break;
+                case "Pirinola Toma Todo De Madera":
+                    window.location.href = "p.html"; // Cambia "camiseta.html" por la ruta de tu archivo
+                    break;
+                case "Cantaritos Jarritos Para Tequila":
+                    window.location.href = "j.html"; // Cambia "camiseta.html" por la ruta de tu archivo
                     break;
                 // Agrega más casos según sea necesario para otras sugerencias
                 default:
